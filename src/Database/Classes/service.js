@@ -1,6 +1,8 @@
 'use strict'
 
-class Service {
+let BasicDocument = require('./basic.js');
+
+class Service extends BasicDocument {
   static description() {
     return {
       "key": "service-%department%-%counter%",
@@ -12,3 +14,5 @@ class Service {
 
   }
 }
+
+module.exports = Service;

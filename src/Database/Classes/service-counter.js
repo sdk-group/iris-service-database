@@ -1,6 +1,6 @@
 'use strict'
 
-let AtomicCounter = require('./atomic-counter.js')
+let AtomicCounter = require('./atomic-counter.js');
 
 class ServiceCounter extends AtomicCounter {
   static description() {
