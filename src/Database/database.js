@@ -2,26 +2,34 @@
 
 let emitter = require("global-queue");
 
-let discover = function(model_name) {
+let discover = function (model_name) {
 
 }
 
 class Database {
-  constructor() {
-    this.emitter = emitter;
-  }
-  init(config) {
+	constructor() {
+		this.emitter = emitter;
+	}
+	init(config) {
 
-  }
-  launch() {
-    return Promise.resolve(true);
-  }
-  get(model_name, query) {
-    let Model = discover(model_name);
-    let object = new Model(query);
-  }
+	}
+	launch() {
+		return Promise.resolve(true);
+	}
+
+	get({}) {}
+	getMulti({}) {}
+	getNodes({}) {}
+	upsert({}) {}
+	upsertNodes({}) {}
+	insert({}) {}
+	insertNodes({}) {}
+	replace({}) {}
+	replaceNodes({}) {}
+	remove({}) {}
+	counter({}) {}
+
 }
-
 
 
 module.exports = Database;
