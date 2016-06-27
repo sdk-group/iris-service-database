@@ -48,7 +48,7 @@ gulp.task('upd', ['es6'], function () {
 		.pipe(gulp.dest("../iris-v2/node_modules/iris-service-database/build"));
 });
 
-gulp.task('test-upd', ['start-test'], function () {
+gulp.task('test-upd', function () {
 	gulp.watch(["src/**/*.js", "tests/**/*.js"], ['upd']);
 });
 
