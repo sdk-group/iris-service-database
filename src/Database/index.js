@@ -11,9 +11,6 @@ let tasks = [{
 	name: 'database.getMulti',
 	handler: 'getMulti'
 }, {
-	name: 'database.getNodes',
-	handler: 'getNodes'
-}, {
 	name: 'database.upsert',
 	handler: 'upsert'
 }, {
