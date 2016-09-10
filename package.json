@@ -48,7 +48,7 @@
 		"gulp-watch": "^4.3.9"
 	},
 	"dependencies": {
-		"Couchbird": "git+https://github.com/sdk-group/Couchbird.git#get-multi-workers",
+		"Couchbird": "git+https://github.com/sdk-group/Couchbird.git",
 		"bluebird": "^3.4.3",
 		"global-queue": "git+https://github.com/artificial-life/global-queue.git#experiments",
 		"gulp": "^3.9.1",
