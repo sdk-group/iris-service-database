@@ -59,6 +59,7 @@ let tasks = [{
 
 module.exports = {
 	module: require('./database.js'),
+	name: 'database',
 	permissions: [],
 	tasks: tasks,
 	exposed: true,
